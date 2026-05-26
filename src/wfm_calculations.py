@@ -151,7 +151,7 @@ def interval_staffing_plan(hourly_volumes, aht_seconds, target_sl=80,
         DataFrame with staffing requirements by interval
     """
     
-    from erlang_c import required_agents
+    from src.erlang_c import required_agents
     
     intervals_per_hour = 60 // interval_minutes
     
