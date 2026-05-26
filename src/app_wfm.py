@@ -9,8 +9,8 @@ import streamlit as st
 import pandas as pd
 import plotly.graph_objects as go
 import plotly.express as px
-from erlang_c import required_agents, service_level, occupancy, erlang_c
-from wfm_calculations import (calculate_shrinkage, calculate_required_fte, 
+from src.erlang_c import required_agents, service_level, occupancy, erlang_c
+from src.wfm_calculations import (calculate_shrinkage, calculate_required_fte, 
                               interval_staffing_plan, forecast_volume)
 
 # Page config
